@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background: #ffff;
+}
+/*ContenedorPadre*/
+.Conte-nav{
+    background: black;
+    margin-top: -40px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.nav-enlace{
+    display: inline-block;
+    color: #ffff;
+    text-decoration: none;
+    padding: 20px 30px;
+}
+.nav-enlace:hover{
+    background:#152744;
+}
+/*EtiquetaImagen*/
+img{
+    width: 300px;
+    display: block;
+    margin: auto;
+    margin-top: -20px;
+}
+.Contenedor{
+    width: 90%;
+    margin: auto;
+}
+.Imagen{
+    width: 100%;
+    height: 550px;
+    background: url(https://vinculotic.com/wp-content/uploads/2020/07/educacion-cuantica-01-1021x580.jpg)no-repeat center center/cover;
+    background-color: rgb(50, 50,50);
+    background-blend-mode: soft-light;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+.Imagen h2{
+    color: #ffff;
+    font-family: 'Roboto', sans-serif;
+}
+.Imagen p{
+    color: #ffff;
+    text-align: center;
+}
+/*noticias*/
+.Noticias{
+    display: grid;
+    /*Define el numero de Columnas*/
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /*Espaciadointerno*/
+    gap: 10px;
+    margin: 30px 0;
+}
+/*Sombras*/
+.one{
+    width: 90%;
+    margin: 0 auto;
+    background: #F8FCFB;
+    padding:25px;
+    /*añadesombraalrededor*/
+    box-shadow:0px 10px 10px rgba(12, 131, 167, 0.5);
+
+}
+.one img{
+    margin-top: 5px;
+}
+.one button{
+    margin-top: 20px;
+    background: #71DFE7;
+    padding: 2px 4px;
+    font-size: 23px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: 'Teko', sans-serif;
+}
+.one p{
+    text-align: justify;
+    margin-top: 5px;
+    font-size: 18px;
+    color: #3c3c3c;
+}
+.one h3{
+    margin-top: 10px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 21px;
+    text-align: center;
+}
+.Noticias img{
+    width: 100%;
+    height: 180px;
+}
+.Footer{
+    background: #96C7C1;
+    height: 150px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    padding-left: 65px;
+
+
+}
+.Footer h3{
+    color: #ffff;
+
+}
+.Footer ul li{
+    color: #ffff;
+    list-style: none;
+}
+.Footer h2{
+    color: #ffff;
+    text-align: center;
+}
+/*Piedepagina2*/
+.Footer2{
+    background: black;
+    height: 50px;
+}
+.Footer2 h2{
+    color: #ffff;
+    text-align: center;
+    padding-top: 15px;
+}
+/*Contenedor-redes*/
+.Container-redes{
+    /*Permite poner los elemtos encima*/
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Container-redes img{
+    width: 50px;
+    padding: 4px;
+    background: rgba(0,0,0,0.0);
+    cursor: pointer;
+    border-radius: 100% ;
+    transition: all 300ms;
+
+}
+.Container-redes a:hover img{
+    background: rgba(0,0,0,0.10);
+}
+
+
+.Container-redes a{
+    margin-top: 20px;
+}
